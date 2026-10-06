@@ -1,33 +1,23 @@
-# Gradle & Build Output
+# Built files
 .gradle/
 build/
-*/build/
 app/build/
 *.apk
 *.aar
-*.ap_
-*.dex
 
-# IDE local (Android Studio / IntelliJ)
+# IDE & Editor files
 .idea/
 *.iml
-*.iws
-*.ipr
-.navigation/
 captures/
-.idea/workspace.xml
-.idea/tasks.xml
-.idea/gradle.xml
-.idea/assetWizardSettings.xml
-.idea/dictionaries
-.idea/libraries
 
-# Archivos de SO y Logs
+# Local configuration & System files
+local.properties
+.externalNativeBuild
+.cxx/
 .DS_Store
 Thumbs.db
 *.log
 
-# Propiedades locales y claves
-local.properties
-.externalNativeBuild
-.cxx/
+# Temp images & Screenshots (opcional)
+*.png
+*.jpg
